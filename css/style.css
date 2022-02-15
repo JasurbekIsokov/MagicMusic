@@ -50,39 +50,6 @@
     .header__right p {
       display: inline-block; }
 
-.title__container {
-  display: flex;
-  justify-content: space-between;
-  padding: 4rem 1rem 1rem 1rem;
-  color: #fff; }
-  .title__container h2 {
-    font-size: 1.32rem; }
-
-.fa-ellipsis,
-.fa-angle-right {
-  color: #fff;
-  font-size: 1.2rem; }
-
-.fa-angle-left {
-  font-size: 1.32rem;
-  color: #666; }
-
-.fa-ellipsis:hover,
-.fa-angle-right:hover,
-.fa-angle-left:hover {
-  cursor: pointer;
-  color: lightblue;
-  transform: scale(1.05);
-  transition: 0.3s; }
-
-.icon-arrow {
-  font-size: 1.072rem;
-  color: #fff; }
-
-.container {
-  width: 80%;
-  margin: 0 auto; }
-
 * {
   margin: 0;
   padding: 0;
@@ -92,7 +59,11 @@
 body {
   font-size: 62.5%;
   background-color: #333;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding-bottom: 3rem; }
+
+p {
+  font-size: 0.8rem; }
 
 .flow__box {
   display: flex;
@@ -141,3 +112,42 @@ body {
 
 .border-radius {
   border-radius: 7px; }
+
+.fa-heart {
+  font-size: 0.8rem; }
+
+.title__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 1rem 1rem 1rem;
+  color: #fff; }
+  .title__container h2 {
+    font-size: 1.32rem; }
+
+.fa-ellipsis,
+.fa-angle-right {
+  color: #fff;
+  font-size: 1.2rem; }
+
+.fa-angle-left {
+  font-size: 1.32rem;
+  color: #666; }
+
+.fa-ellipsis:hover,
+.fa-angle-right:hover,
+.fa-angle-left:hover {
+  cursor: pointer;
+  color: lightblue;
+  transform: scale(1.05);
+  transition: 0.3s; }
+
+.icon-arrow {
+  font-size: 1.072rem;
+  color: #fff; }
+
+.center {
+  text-align: center; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
