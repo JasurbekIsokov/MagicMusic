@@ -148,6 +148,10 @@ p {
 .center {
   text-align: center; }
 
+.home__link {
+  border: 1px solid lightskyblue;
+  border-radius: 20px; }
+
 .container {
   width: 80%;
   margin: 0 auto; }
