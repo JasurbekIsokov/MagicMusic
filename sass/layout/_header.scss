@@ -81,3 +81,43 @@
     }
   }
 }
+
+// Genre Mood section
+
+.header {
+  &__center {
+    // display: flex;
+    // align-items: center;
+    padding-left: 22rem;
+
+    ul {
+      li {
+        display: inline-block;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 0.9rem;
+          margin-right: 1rem;
+          padding-bottom: 1rem;
+          transition: all 0.3s;
+
+          &:hover {
+            padding-bottom: 1rem;
+            cursor: pointer;
+            color: lightskyblue;
+            border-bottom: 1px solid lightskyblue;
+          }
+        }
+
+        .border-bottom {
+          padding-bottom: 1rem;
+          color: lightskyblue;
+          border-bottom: 1px solid lightskyblue;
+        }
+      }
+    }
+  }
+}
+
+// /Genre Mood section

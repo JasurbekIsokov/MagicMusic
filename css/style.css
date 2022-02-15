@@ -56,6 +56,27 @@
     .header__right p {
       display: inline-block; }
 
+.header__center {
+  padding-left: 22rem; }
+  .header__center ul li {
+    display: inline-block; }
+    .header__center ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 0.9rem;
+      margin-right: 1rem;
+      padding-bottom: 1rem;
+      transition: all 0.3s; }
+      .header__center ul li a:hover {
+        padding-bottom: 1rem;
+        cursor: pointer;
+        color: lightskyblue;
+        border-bottom: 1px solid lightskyblue; }
+    .header__center ul li .border-bottom {
+      padding-bottom: 1rem;
+      color: lightskyblue;
+      border-bottom: 1px solid lightskyblue; }
+
 * {
   margin: 0;
   padding: 0;
@@ -242,6 +263,10 @@ p {
       height: 3px;
       border-radius: 2px;
       background-color: #f0f0f0; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
 
 .container {
   width: 80%;
