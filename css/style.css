@@ -131,3 +131,13 @@ body {
   .plated__box i:active {
     transform: scale(2);
     color: #fff; }
+
+.play {
+  width: 95%;
+  margin: 2rem auto; }
+  .play img {
+    width: 100%;
+    border-radius: 5px; }
+
+.border-radius {
+  border-radius: 7px; }
