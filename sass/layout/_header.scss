@@ -22,6 +22,12 @@
     position: absolute;
     margin-top: -1rem;
 
+    a.home__link {
+      border: 1px solid lightskyblue;
+      border-radius: 20px;
+      color: lightskyblue;
+    }
+
     ul {
       li {
         display: inline-block;
