@@ -1,12 +1,17 @@
 .header {
+  position: sticky;
+  position: fixed;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
   padding: 1rem;
+  z-index: 100;
 
   .logo {
     display: inline-block;
+    margin-left: 2rem;
   }
 
   .navbar {
@@ -35,4 +40,42 @@
       }
     }
   }
+
+  &__right {
+    font-size: 1.072rem;
+    color: #fff;
+    margin: 0 2rem;
+
+    &--search {
+      padding: 0.5rem 1rem;
+      background-color: #999;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      outline: none;
+      &::placeholder {
+        color: #fff;
+      }
+    }
+    i {
+      margin: 0 0.5rem;
+
+      &.fa-angle-down {
+        &:hover {
+          cursor: pointer;
+          color: lightskyblue;
+          transform: scale(1.1);
+          transition: 0.5s;
+        }
+      }
+    }
+    p {
+      display: inline-block;
+    }
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
 }

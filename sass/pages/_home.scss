@@ -9,3 +9,30 @@ body {
   font-size: 62.5%;
   background-color: #333;
 }
+
+h2.title {
+  color: #fff;
+  margin: 1rem auto;
+}
+
+// Flow section
+
+.flow {
+  &__box {
+    display: flex;
+    justify-content: space-between;
+
+    &--picture {
+      width: 32%;
+      border-radius: 5px;
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: 0.3s;
+      }
+    }
+  }
+}
+
+// /Flow section
