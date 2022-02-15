@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 1rem;
+
+  .logo {
+    display: inline-block;
+  }
+
+  .navbar {
+    display: inline-block;
+    font-size: 1.072rem;
+    padding: 1.5rem;
+    position: absolute;
+    margin-top: -1rem;
+
+    ul {
+      li {
+        display: inline-block;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          padding: 0.3rem 1.2rem;
+
+          &:hover {
+            border: 1px solid lightskyblue;
+            border-radius: 20px;
+            color: lightskyblue;
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+  }
+}
