@@ -1,12 +1,14 @@
 .header {
-  position: sticky;
-  position: fixed;
   position: relative;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #333;
   padding: 1rem;
-  z-index: 100; }
+  z-index: 500;
+  width: 100vw;
+  top: 0; }
   .header .logo {
     display: inline-block;
     margin-left: 2rem; }
@@ -60,7 +62,7 @@ body {
   font-size: 62.5%;
   background-color: #333;
   box-sizing: border-box;
-  padding-bottom: 3rem; }
+  padding: 2.2rem 0 6.2rem 0; }
 
 p {
   font-size: 0.8rem; }
@@ -103,13 +105,6 @@ p {
     transform: scale(2);
     color: #fff; }
 
-.play {
-  width: 95%;
-  margin: 2rem auto; }
-  .play img {
-    width: 100%;
-    border-radius: 5px; }
-
 .border-radius {
   border-radius: 7px; }
 
@@ -151,6 +146,17 @@ p {
 .home__link {
   border: 1px solid lightskyblue;
   border-radius: 20px; }
+
+.play {
+  width: 95vw;
+  height: 5rem;
+  background-color: #555;
+  position: relative;
+  position: fixed;
+  top: 87.5%;
+  left: 2vw;
+  z-index: 500;
+  border-radius: 1rem; }
 
 .container {
   width: 80%;

@@ -1,13 +1,14 @@
 .header {
-  position: sticky;
-  position: fixed;
   position: relative;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  background-color: #333;
   padding: 1rem;
-  z-index: 100;
+  z-index: 500;
+  width: 100vw;
+  top: 0;
 
   .logo {
     display: inline-block;

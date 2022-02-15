@@ -9,7 +9,7 @@ body {
   font-size: 62.5%;
   background-color: #333;
   box-sizing: border-box;
-  padding-bottom: 3rem;
+  padding: 2.2rem 0 6.2rem 0;
 }
 
 p {
@@ -84,15 +84,7 @@ p {
 // /Recently plated section
 
 // Play section
-.play {
-  width: 95%;
-  margin: 2rem auto;
 
-  img {
-    width: 100%;
-    border-radius: 5px;
-  }
-}
 // /Play section
 
 //Music section
@@ -152,4 +144,16 @@ p {
 .home__link {
   border: 1px solid lightskyblue;
   border-radius: 20px;
+}
+
+.play {
+  width: 95vw;
+  height: 5rem;
+  background-color: #555;
+  position: relative;
+  position: fixed;
+  top: 87.5%;
+  left: 2vw;
+  z-index: 500;
+  border-radius: 1rem;
 }
