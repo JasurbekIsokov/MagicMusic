@@ -151,6 +151,8 @@ p {
   text-align: center; }
 
 .play {
+  display: flex;
+  justify-content: space-between;
   width: 95vw;
   height: 5rem;
   background-color: #555;
@@ -159,7 +161,87 @@ p {
   top: 87.5%;
   left: 2vw;
   z-index: 500;
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  padding: 1rem; }
+  .play__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%; }
+    .play__left--title p:first-child {
+      color: #fff;
+      font-size: 1rem;
+      padding-bottom: 0.5rem; }
+    .play__left--title p:nth-child(2) {
+      color: #999; }
+    .play__left img {
+      border-radius: 0.35rem; }
+    .play__left--like {
+      font-size: 1rem;
+      color: #d0d0d0; }
+      .play__left--like:hover {
+        cursor: pointer;
+        color: #fff;
+        transform: scale(1.05);
+        transition: 0.3s; }
+      .play__left--like:active {
+        transform: scale(2);
+        transition: 0.3s; }
+    .play__left--check {
+      font-size: 1rem;
+      color: lightskyblue; }
+  .play__center {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 0 6rem; }
+    .play__center--line {
+      width: 33rem;
+      height: 3px;
+      background-color: lightskyblue;
+      margin: 0 auto;
+      border-radius: 3px; }
+    .play__center--top {
+      display: flex;
+      justify-content: space-around;
+      width: 50%;
+      margin: 0 auto;
+      color: #fff;
+      padding-right: 8.5rem; }
+      .play__center--top .fa-backward-step {
+        font-size: 1.1rem; }
+      .play__center--top .fa-pause {
+        font-size: 1.4rem; }
+      .play__center--top .fa-forward-step {
+        font-size: 1.1rem; }
+      .play__center--top:first-child, .play__center--top:last-child {
+        font-size: 1rem; }
+      .play__center--top i:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all 0.2s; }
+        .play__center--top i:hover:active {
+          color: lightskyblue;
+          transition: 0.0001s; }
+    .play__center--bottom {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 90%;
+      color: #f0f0f0; }
+  .play__right {
+    width: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .play__right .fa-volume-high {
+      font-size: 0.9rem;
+      color: #f0f0f0; }
+    .play__right--voice {
+      width: 80px;
+      height: 3px;
+      border-radius: 2px;
+      background-color: #f0f0f0; }
 
 .container {
   width: 80%;
