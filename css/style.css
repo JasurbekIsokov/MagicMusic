@@ -51,6 +51,35 @@
     .header__right p {
       display: inline-block; }
 
+.title__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 1rem 1rem 1rem;
+  color: #fff; }
+  .title__container h2 {
+    font-size: 1.32rem; }
+
+.fa-ellipsis,
+.fa-angle-right {
+  color: #fff;
+  font-size: 1.2rem; }
+
+.fa-angle-left {
+  font-size: 1.32rem;
+  color: #666; }
+
+.fa-ellipsis:hover,
+.fa-angle-right:hover,
+.fa-angle-left:hover {
+  cursor: pointer;
+  color: lightblue;
+  transform: scale(1.05);
+  transition: 0.3s; }
+
+.icon-arrow {
+  font-size: 1.072rem;
+  color: #fff; }
+
 .container {
   width: 80%;
   margin: 0 auto; }
@@ -64,10 +93,6 @@
 body {
   font-size: 62.5%;
   background-color: #333; }
-
-h2.title {
-  color: #fff;
-  margin: 1rem auto; }
 
 .flow__box {
   display: flex;
