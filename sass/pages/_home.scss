@@ -8,6 +8,7 @@
 body {
   font-size: 62.5%;
   background-color: #333;
+  box-sizing: border-box;
 }
 
 // Flow section
@@ -31,3 +32,48 @@ body {
 }
 
 // /Flow section
+
+// Recently plated section
+
+.plated {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+  &__box {
+    img {
+      width: 93%;
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: 0.3s;
+      }
+
+      + p {
+        color: #fff;
+        margin: 0.5rem;
+      }
+    }
+
+    i,
+    i + p {
+      display: inline-block;
+      color: #999;
+      margin: 0 0 0 0.5rem;
+    }
+
+    i:hover {
+      transform: scale(1.1);
+      transition: 0.2s;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    i:active {
+      transform: scale(2);
+      color: #fff;
+    }
+  }
+}
+
+// /Recently plated section

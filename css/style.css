@@ -5,7 +5,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
   padding: 1rem;
   z-index: 100; }
   .header .logo {
@@ -92,7 +91,8 @@
 
 body {
   font-size: 62.5%;
-  background-color: #333; }
+  background-color: #333;
+  box-sizing: border-box; }
 
 .flow__box {
   display: flex;
@@ -104,3 +104,30 @@ body {
       cursor: pointer;
       transform: scale(1.05);
       transition: 0.3s; }
+
+.plated {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem; }
+  .plated__box img {
+    width: 93%; }
+    .plated__box img:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+      transition: 0.3s; }
+    .plated__box img + p {
+      color: #fff;
+      margin: 0.5rem; }
+  .plated__box i,
+  .plated__box i + p {
+    display: inline-block;
+    color: #999;
+    margin: 0 0 0 0.5rem; }
+  .plated__box i:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    color: #fff;
+    cursor: pointer; }
+  .plated__box i:active {
+    transform: scale(2);
+    color: #fff; }
