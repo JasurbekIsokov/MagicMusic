@@ -1,0 +1,23 @@
+// GenreMood Page
+
+// Genres section
+
+.genres {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+.genres__img {
+  border-radius: 8px;
+  width: 95%;
+  margin-bottom: 0.6rem;
+  transition: all 0.5s;
+
+  &:hover {
+    transform: scale(1.09);
+  }
+}
+
+// /Genres section
+
+// GenreMood Page
