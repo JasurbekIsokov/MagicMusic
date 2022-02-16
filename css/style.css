@@ -310,3 +310,35 @@ p {
       transform: scale(1.05); }
     .more__button:active {
       transform: scale(1.1); }
+
+.featured {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem; }
+  .featured__box {
+    display: flex;
+    justify-content: space-between;
+    width: 33%; }
+    .featured__box:hover img {
+      transform: scale(1.2);
+      filter: blur(2px) brightness(70%);
+      transition: all 0.5s;
+      cursor: grabbing; }
+    .featured__box:hover h2 {
+      margin-left: 2rem;
+      transform: scale(1.11);
+      color: #fff;
+      transition: all 0.5s; }
+    .featured__box:hover p {
+      margin-left: 2rem;
+      transform: scale(1.11);
+      color: #fff;
+      transition: all 0.5s; }
+    .featured__box img {
+      width: 5rem; }
+    .featured__box h2 {
+      color: #f0f0f0;
+      margin: 0.5rem; }
+    .featured__box p {
+      color: #a0a0a0;
+      margin: 0 0.5rem 0.5rem 0.5rem; }
