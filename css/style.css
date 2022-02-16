@@ -1,3 +1,8 @@
+.startalk {
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 0.9rem; }
+
 .header {
   position: relative;
   position: fixed;
@@ -283,3 +288,25 @@ p {
   transition: all 0.5s; }
   .genres__img:hover {
     transform: scale(1.09); }
+
+.margin-top {
+  margin-top: 2rem; }
+
+.more {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto; }
+  .more__button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: all 0.3s; }
+    .more__button:hover {
+      cursor: pointer;
+      border-color: lightskyblue;
+      color: lightskyblue;
+      transform: scale(1.05); }
+    .more__button:active {
+      transform: scale(1.1); }
