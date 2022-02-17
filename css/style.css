@@ -507,3 +507,6 @@ p {
     color: #a0a0a0; }
     .episode__time h2 {
       color: #e9e9e9; }
+
+.title__container--releases {
+  margin-top: -2rem; }
