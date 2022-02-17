@@ -348,10 +348,14 @@ p {
 
 .background-img {
   width: 100vw;
-  height: 100vh;
+  height: 155vh;
   background-image: url("../img/BG-5.png");
   background-repeat: no-repeat;
   background-size: cover; }
+
+.search-episode {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 1rem; }
 
 .talk {
   display: flex;
@@ -421,3 +425,85 @@ p {
       border: 1px solid #fff;
       padding: 0.3rem 0.4rem;
       border-radius: 50%; }
+
+.episode-1:hover {
+  background-color: #333;
+  transition: 0.3s;
+  transform: scale(1.035);
+  transition: 0.3s;
+  cursor: pointer; }
+  .episode-1:hover i {
+    font-size: 1.1rem;
+    transition: 0.3s; }
+    .episode-1:hover i:hover {
+      cursor: pointer;
+      transform: scale(1.3);
+      color: lightskyblue; }
+    .episode-1:hover i:active {
+      transition: 0.05s;
+      transform: scale(1.5) rotate(90deg);
+      color: lightskyblue; }
+  .episode-1:hover h2 {
+    font-size: 1rem;
+    transition: 0.3s; }
+  .episode-1:hover p {
+    color: #e9e9e9;
+    font-size: 0.81rem;
+    transition: 0.3s; }
+
+.episode-1:active i {
+  transition: 0.05s;
+  transform: scale(1.5) rotate(90deg);
+  color: lightskyblue; }
+
+.episode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  width: 80%;
+  height: 5rem;
+  border-radius: 10px;
+  padding: 1rem 0.6rem; }
+  .episode__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%; }
+    .episode__title--left {
+      margin-right: 1rem;
+      color: #e9e9e9;
+      font-size: 1rem; }
+    .episode__title--right {
+      color: #e9e9e9; }
+      .episode__title--right p {
+        color: #a0a0a0;
+        line-height: 1.2rem;
+        margin-top: 0.5rem; }
+    .episode__title--right0 {
+      position: absolute;
+      left: 13%; }
+  .episode__progress {
+    width: 6rem;
+    height: 0.2rem;
+    border-radius: 5px;
+    background-color: #a0a0a0;
+    color: #e9e9e9; }
+  .episode__progress0 {
+    margin-top: -1rem;
+    font-size: 0.7rem;
+    background-color: none;
+    height: 0; }
+  .episode__uploadd {
+    width: 10%;
+    color: #a0a0a0;
+    display: flex; }
+    .episode__uploadd p {
+      margin-left: 2rem; }
+    .episode__uploadd h2 {
+      color: #e9e9e9; }
+  .episode__time {
+    width: 4%;
+    color: #a0a0a0; }
+    .episode__time h2 {
+      color: #e9e9e9; }
