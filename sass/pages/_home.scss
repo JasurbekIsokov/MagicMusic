@@ -7,13 +7,14 @@
 
 body {
   font-size: 62.5%;
-  background-color: #333;
+  background-color: #1a1a1a;
   box-sizing: border-box;
   padding: 2.2rem 0 6.2rem 0;
 }
 
 p {
   font-size: 0.8rem;
+  color: #666;
 }
 
 // Flow section
@@ -156,7 +157,7 @@ p {
   justify-content: space-between;
   width: 95vw;
   height: 5rem;
-  background-color: #555;
+  background-color: #333;
   position: relative;
   position: fixed;
   top: 87.5%;
