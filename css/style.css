@@ -185,7 +185,7 @@ p {
   justify-content: space-between;
   width: 95vw;
   height: 5rem;
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.9) !important;
   position: relative;
   position: fixed;
   top: 87.5%;
@@ -525,7 +525,7 @@ p {
   margin-top: -2.5rem; }
 
 .header {
-  background-color: rgba(0, 0, 0, 0.9) !important; }
+  background-color: rgba(0, 0, 0, 0.95) !important; }
 
 .rockLink {
   display: flex;
