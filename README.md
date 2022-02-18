@@ -1,2 +1,2 @@
 # MagicMusic
-<h1>MagicMusic</h1>
+<h1>Magic Music</h1>
