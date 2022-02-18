@@ -554,3 +554,21 @@ p {
 
 .opacity {
   opacity: 0; }
+
+.section1 {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-image: url(./img/back-img-1.jpg); }
+  .section1__h2 {
+    color: #fff;
+    font-size: 2.4rem; }
+
+.background-70s {
+  background-image: url("../img/BG-25.png");
+  height: 150vh; }
+
+.anthems-left {
+  margin-right: 2rem; }

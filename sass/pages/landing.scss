@@ -1,0 +1,21 @@
+// Header section
+
+// /Header section
+
+// Section-1
+
+.section1 {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-image: url(./img/back-img-1.jpg);
+
+  &__h2 {
+    color: #fff;
+    font-size: 2.4rem;
+  }
+}
+
+// /Section-1
