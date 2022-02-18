@@ -6,3 +6,111 @@
 .anthems-left {
   margin-right: 2rem;
 }
+
+// Anthem section
+
+.srock {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 1rem 4rem 1rem 1rem;
+}
+
+.anthem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 1rem;
+
+  p {
+    font-size: 1rem;
+    display: inline-block;
+  }
+
+  h2 {
+    font-size: 0.99rem;
+    display: inline-block;
+  }
+
+  &__title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &--center {
+      margin: 0 1rem;
+    }
+
+    &--right {
+      font-size: 1.4rem;
+      color: #fff;
+    }
+  }
+
+  &__artist {
+    width: 17%;
+    margin-left: 1.5rem;
+  }
+
+  &__album {
+    width: 17%;
+    color: #999;
+    margin-left: 0rem;
+  }
+
+  &__time {
+    width: 8%;
+    display: flex;
+    justify-content: start;
+
+    &--center {
+      margin: 0 1rem 0 2rem;
+      font-size: 1rem;
+
+      &:hover {
+        transform: scale(1.07);
+        transition: 0.3s;
+        cursor: pointer;
+      }
+
+      &:active {
+        transform: scale(1.5);
+        transition: 0.01s;
+      }
+    }
+
+    &--right {
+      font-size: 1.2rem;
+
+      &:hover {
+        transform: scale(1.07);
+        transition: 0.3s;
+        cursor: pointer;
+      }
+
+      &:active {
+        transform: scale(1.5);
+        transition: 0.01s;
+      }
+    }
+  }
+}
+
+.anthem:hover {
+  width: 82%;
+  padding-right: 2.5rem;
+  border-radius: 10px;
+  background-color: #333;
+  transition: 0.3s;
+  transform: scale(1.035);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+// Anthem sction
+
+.bottom {
+  margin-bottom: 3rem;
+}

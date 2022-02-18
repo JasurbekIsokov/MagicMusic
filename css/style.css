@@ -92,7 +92,8 @@ body {
   font-size: 62.5%;
   background-color: #1a1a1a;
   box-sizing: border-box;
-  padding: 2.2rem 0 6.2rem 0; }
+  padding: 2.2rem 0 6.2rem 0;
+  font-family: sans-serif; }
 
 p {
   font-size: 0.8rem;
@@ -572,3 +573,78 @@ p {
 
 .anthems-left {
   margin-right: 2rem; }
+
+.srock {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 1rem 4rem 1rem 1rem; }
+
+.anthem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 1rem; }
+  .anthem p {
+    font-size: 1rem;
+    display: inline-block; }
+  .anthem h2 {
+    font-size: 0.99rem;
+    display: inline-block; }
+  .anthem__title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .anthem__title--center {
+      margin: 0 1rem; }
+    .anthem__title--right {
+      font-size: 1.4rem;
+      color: #fff; }
+  .anthem__artist {
+    width: 17%;
+    margin-left: 1.5rem; }
+  .anthem__album {
+    width: 17%;
+    color: #999;
+    margin-left: 0rem; }
+  .anthem__time {
+    width: 8%;
+    display: flex;
+    justify-content: start; }
+    .anthem__time--center {
+      margin: 0 1rem 0 2rem;
+      font-size: 1rem; }
+      .anthem__time--center:hover {
+        transform: scale(1.07);
+        transition: 0.3s;
+        cursor: pointer; }
+      .anthem__time--center:active {
+        transform: scale(1.5);
+        transition: 0.01s; }
+    .anthem__time--right {
+      font-size: 1.2rem; }
+      .anthem__time--right:hover {
+        transform: scale(1.07);
+        transition: 0.3s;
+        cursor: pointer; }
+      .anthem__time--right:active {
+        transform: scale(1.5);
+        transition: 0.01s; }
+
+.anthem:hover {
+  width: 82%;
+  padding-right: 2.5rem;
+  border-radius: 10px;
+  background-color: #333;
+  transition: 0.3s;
+  transform: scale(1.035);
+  transition: 0.3s;
+  cursor: pointer; }
+
+.bottom {
+  margin-bottom: 3rem; }
+
+.title-top {
+  margin-top: 2rem; }
