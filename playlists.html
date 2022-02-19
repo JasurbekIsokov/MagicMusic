@@ -61,7 +61,7 @@
         <div class="navbar">
           <ul>
             <li><a href="home.html">Home</a></li>
-            <li><a  class="home__link" href="#">Library</a></li>
+            <li><a class="home__link" href="#">Library</a></li>
             <li><a href="genremood.html">Browse</a></li>
           </ul>
         </div>
@@ -73,9 +73,9 @@
         <ul>
           <li><a class="border-bottom" href="#">Playlists</a></li>
           <li><a href="#">Albums</a></li>
-          <li><a href="#">Artists</a></li>
+          <li><a href="DavidBowie.html">Artists</a></li>
           <li><a href="podcasts+1.html">Podcasts+1</a></li>
-          <li><a href="#">Listening History</a></li>
+          <li><a href="listeninghistory.html">Listening History</a></li>
         </ul>
       </div>
 
@@ -137,13 +137,14 @@
     </div>
 
     <section class="plated container">
-      <div class="plated__box">
-        <img
-          class="border-radius"
-          src="./img/new playlist.png"
-          alt="Mask Group -7 picture"
-        />
-      </div>
+      <a href="#create" id="create-play">
+        <div class="plated__box">
+          <img
+            class="border-radius"
+            src="./img/new playlist.png"
+            alt="Mask Group -7 picture"
+          /></div
+      ></a>
 
       <div class="plated__box">
         <img
@@ -164,11 +165,12 @@
         <p>Lheartradio & Howstuffworks</p>
       </div>
       <div class="plated__box">
-        <img
-          class="border-radius"
-          src="./img/Classic rock.png"
-          alt="StarTalk picture"
-        />
+        <a href="classicrock.html"
+          ><img
+            class="border-radius"
+            src="./img/Classic rock.png"
+            alt="StarTalk picture"
+        /></a>
         <p>The Tony Kornheiser Show</p>
         <p>Tony Korheiser</p>
       </div>
@@ -192,34 +194,19 @@
       </div>
     </section>
 
-    
-
-    <div class="title__container title__container--releases container">
-      
-      </div>
-    </div>
+    <div class="title__container title__container--releases container"></div>
 
     <section class="plated container">
       <div class="plated__box">
         <img
-        class="border-radius"
-        src="./img/LEGEND OF POP.png"
-        alt="Mask Group -7 picture"
-      />
-      <p>Simple Pleasures</p>
-      <p>Yotam Ottolengh</p>
-       
+          class="border-radius"
+          src="./img/LEGEND OF POP.png"
+          alt="Mask Group -7 picture"
+        />
+        <p>Simple Pleasures</p>
+        <p>Yotam Ottolengh</p>
       </div>
 
-      <div class="plated__box">
-        <img
-          class="border-radius"
-          src="./img/90s ALTERNATIVE.png"
-          alt="PLAYLIST RADIO picture"
-        />
-        <p>Conan Nids</p>
-        <p>22 EPISODES</p>
-      </div>
       <div class="plated__box">
         <img
           class="border-radius"
@@ -261,5 +248,19 @@
     <!-- Releases section -->
 
     <!-- /New releases page -->
+
+    <div class="create" id="create">
+      <div class="create__form">
+        <h2>Create new playlists</h2>
+        <a href="#create-play" class="cancel"><h2>X</h2></a>
+        <input type="text" placeholder="Title" />
+        <label for="">Write a description</label>
+        <textarea name="description" id="description"></textarea>
+        <div class="create__form--button">
+          <a class="create-btn" href="#">CREATE</a>
+          <a class="cancel-btn" href="#">CANCEL</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

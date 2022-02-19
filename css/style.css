@@ -95,6 +95,9 @@ body {
   padding: 2.2rem 0 6.2rem 0;
   font-family: sans-serif; }
 
+a {
+  text-decoration: none; }
+
 p {
   font-size: 0.8rem;
   color: #666; }
@@ -555,6 +558,95 @@ p {
 
 .opacity {
   opacity: 0; }
+
+.create {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 5%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0; }
+  .create:target {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s; }
+  .create .cancel {
+    top: 3%;
+    position: absolute;
+    left: 88%; }
+    .create .cancel:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      transition: 0.3s; }
+    .create .cancel:active {
+      transform: scale(1.1); }
+  .create__form {
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    margin: auto auto;
+    background-color: #333;
+    top: 25%;
+    left: 35%;
+    border-radius: 5px;
+    padding: 1rem; }
+    .create__form h2 {
+      color: #fff;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin-bottom: 1rem; }
+    .create__form input {
+      width: 99%;
+      background-color: #333;
+      border: none;
+      border-bottom: 2px solid lightskyblue;
+      padding: 5px 0;
+      margin-bottom: 1rem;
+      outline: none;
+      color: #fff;
+      font-size: 16px; }
+      .create__form input::placeholder {
+        font-size: 1rem;
+        color: #fff; }
+    .create__form label {
+      color: #999;
+      font-size: 0.9rem; }
+    .create__form textarea {
+      width: 99%;
+      height: 80px;
+      background-color: #333;
+      border: none;
+      border-bottom: 2px solid #999;
+      resize: none;
+      outline: none;
+      color: #fff;
+      font-size: 16px;
+      margin-top: 0.5rem; }
+    .create__form a {
+      text-decoration: none;
+      color: #fff;
+      padding: 0.5rem 2rem;
+      position: absolute;
+      top: 80%;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      transition: 0.3s; }
+      .create__form a:hover {
+        transform: scale(1.05); }
+      .create__form a:active {
+        transform: scale(1.1);
+        transition: all 0.1ms; }
+    .create__form a.cancel-btn {
+      border: 1px solid #fff; }
+      .create__form a.cancel-btn:hover {
+        background-image: linear-gradient(#1c61f7, #3918f1);
+        border: 1px solid #3918f1; }
+    .create__form a.create-btn {
+      border: 1px solid #3918f1;
+      left: 70%;
+      background-image: linear-gradient(#1c61f7, #3918f1); }
 
 .section1 {
   width: 100vw;

@@ -1,0 +1,124 @@
+.create {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(#000000, 0.9);
+  position: absolute;
+  top: 5%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+
+  &:target {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+  }
+
+  .cancel {
+    top: 3%;
+    position: absolute;
+    left: 88%;
+
+    &:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    &:active {
+      transform: scale(1.1);
+    }
+  }
+
+  &__form {
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    margin: auto auto;
+    background-color: #333;
+    top: 25%;
+    left: 35%;
+    border-radius: 5px;
+    padding: 1rem;
+
+    h2 {
+      color: #fff;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+
+    input {
+      width: 99%;
+      background-color: #333;
+      border: none;
+      border-bottom: 2px solid lightskyblue;
+      padding: 5px 0;
+      margin-bottom: 1rem;
+      outline: none;
+      color: #fff;
+      font-size: 16px;
+
+      &::placeholder {
+        font-size: 1rem;
+        color: #fff;
+      }
+    }
+
+    label {
+      color: #999;
+      font-size: 0.9rem;
+    }
+
+    textarea {
+      width: 99%;
+      height: 80px;
+      background-color: #333;
+      border: none;
+      border-bottom: 2px solid #999;
+      resize: none;
+      outline: none;
+      color: #fff;
+      font-size: 16px;
+      margin-top: 0.5rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      padding: 0.5rem 2rem;
+      position: absolute;
+      top: 80%;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      transition: 0.3s;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      &:active {
+        transform: scale(1.1);
+        transition: all 0.1ms;
+      }
+    }
+
+    a.cancel-btn {
+      border: 1px solid #fff;
+
+      &:hover {
+        background-image: linear-gradient(
+          (rgb(28, 97, 247)),
+          (rgb(57, 24, 241))
+        );
+        border: 1px solid rgb(57, 24, 241);
+      }
+    }
+
+    a.create-btn {
+      border: 1px solid rgb(57, 24, 241);
+      left: 70%;
+      background-image: linear-gradient((rgb(28, 97, 247)), (rgb(57, 24, 241)));
+    }
+  }
+}
