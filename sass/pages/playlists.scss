@@ -3,15 +3,17 @@
   height: 100vh;
   background-color: rgba(#000000, 0.9);
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 0;
   visibility: hidden;
   opacity: 0;
+  transform: scale(0.5);
 
   &:target {
     visibility: visible;
     opacity: 1;
     transition: 0.5s;
+    transform: scale(1);
   }
 
   .cancel {

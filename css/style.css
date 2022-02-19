@@ -564,14 +564,16 @@ p {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 0;
   visibility: hidden;
-  opacity: 0; }
+  opacity: 0;
+  transform: scale(0.5); }
   .create:target {
     visibility: visible;
     opacity: 1;
-    transition: 0.5s; }
+    transition: 0.5s;
+    transform: scale(1); }
   .create .cancel {
     top: 3%;
     position: absolute;
@@ -647,6 +649,14 @@ p {
       border: 1px solid #3918f1;
       left: 70%;
       background-image: linear-gradient(#1c61f7, #3918f1); }
+
+.background-david {
+  width: 100vw;
+  height: 155vh;
+  background-image: url("../img/BG-27.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -2.5rem; }
 
 .section1 {
   width: 100vw;
@@ -742,6 +752,14 @@ p {
 
 .title-top {
   margin-top: 2rem; }
+
+.background-mellon {
+  width: 100vw;
+  height: 155vh;
+  background-image: url("../img/BG-.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -2.5rem; }
 
 .background-classic {
   background-image: url("../img/BG-14.png");
