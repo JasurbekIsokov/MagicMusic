@@ -36,11 +36,13 @@
 
   &__title {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
+    width: 14rem;
 
     &--center {
-      margin: 0 1rem;
+      margin: 0 1.3rem;
+      border-radius: 5px;
     }
 
     &--right {
@@ -50,18 +52,18 @@
   }
 
   &__artist {
-    width: 17%;
-    margin-left: 1.5rem;
+    width: 14rem;
+    display: flex;
+    justify-content: start;
   }
 
   &__album {
-    width: 17%;
+    width: 15rem;
     color: #999;
-    margin-left: 0rem;
   }
 
   &__time {
-    width: 8%;
+    width: 5rem;
     display: flex;
     justify-content: start;
 

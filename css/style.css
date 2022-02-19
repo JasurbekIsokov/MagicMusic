@@ -595,22 +595,24 @@ p {
     display: inline-block; }
   .anthem__title {
     display: flex;
-    justify-content: space-around;
-    align-items: center; }
+    justify-content: start;
+    align-items: center;
+    width: 14rem; }
     .anthem__title--center {
-      margin: 0 1rem; }
+      margin: 0 1.3rem;
+      border-radius: 5px; }
     .anthem__title--right {
       font-size: 1.4rem;
       color: #fff; }
   .anthem__artist {
-    width: 17%;
-    margin-left: 1.5rem; }
+    width: 14rem;
+    display: flex;
+    justify-content: start; }
   .anthem__album {
-    width: 17%;
-    color: #999;
-    margin-left: 0rem; }
+    width: 15rem;
+    color: #999; }
   .anthem__time {
-    width: 8%;
+    width: 5rem;
     display: flex;
     justify-content: start; }
     .anthem__time--center {
@@ -648,3 +650,16 @@ p {
 
 .title-top {
   margin-top: 2rem; }
+
+.background-classic {
+  background-image: url("../img/BG-14.png");
+  height: 150vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75; }
+
+.background-70sradio {
+  background-image: url("../img/BG-37.png");
+  height: 150vh;
+  background-repeat: no-repeat;
+  background-size: cover; }
