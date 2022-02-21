@@ -1,0 +1,22 @@
+.btn {
+  background-color: inherit;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 1rem;
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(55, 21, 206);
+    box-shadow: 0 1px 2px 3px lightskyblue;
+    transition: all 0.3s;
+  }
+
+  &:active {
+    transform: scale(1.1);
+    transition: 0.001s;
+  }
+}

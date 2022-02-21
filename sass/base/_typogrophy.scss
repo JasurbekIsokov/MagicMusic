@@ -1,15 +1,79 @@
-// Header section
-
-// Header section
-
-// Podcasts page
-// Popular section
-
 .startalk {
   color: #fff;
   padding: 0.5rem;
   font-size: 0.9rem;
 }
+.main__heading {
+  font-size: 5rem;
+  color: #fff;
+}
+.main_cost {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.blue-text {
+  color: lightskyblue;
+  margin-left: 0.4rem;
+}
+.text-box {
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 2;
+  width: 80%;
+}
+.heading-secondary {
+  font-size: 3.5rem;
+  color: #fff;
+  transition: all 0.5s;
+  letter-spacing: 2px;
 
-// /Popular section
-// /Podcasts page
+  text-shadow: 0 0rem 3rem lightskyblue;
+  visibility: visible;
+  animation-name: heading2;
+  animation-duration: 1s;
+  animation-delay: 100ms;
+}
+.text-box-mini {
+  font-size: 1.1rem;
+  color: #808080;
+}
+.heading-tertiary {
+  font-size: 1.4rem;
+  color: #808080;
+}
+.gradient-text {
+  display: inline-block;
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.section-header-txt {
+  font-size: 2rem;
+  color: white;
+  font-weight: 500;
+  &-info {
+    font-size: 1.2rem;
+    color: #808080;
+  }
+}
+.section-header-right {
+  font-size: 2rem;
+  .setting-button {
+    text-decoration: none;
+    color: #eee;
+    .fa-angle-left {
+      color: #808080;
+      margin-right: 1rem;
+    }
+  }
+}
+.view-all {
+  font-size: 1.3rem;
+  color: #808080;
+}
+.page_heading {
+  padding-top: 10vh;
+}

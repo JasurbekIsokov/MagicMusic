@@ -4,22 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MagicMusic</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css
-    "
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    <title>MagicMusic</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- Magic Music Landing page -->
-
-    <!-- Header section -->
-
-    <section class="header" id="header">
+    <!-- Header setion -->
+    <section class="header landing-header" id="header">
       <div class="header__left">
-        <div class="logo">
+        <div class="logo landing-logo">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="88.452"
@@ -58,45 +57,250 @@
 
         <!-- Navbar section -->
 
-        <div class="navbar">
+        <div class="navbar right-navbar">
           <ul>
-            <li><a href="genremood.html">Browse</a></li>
-            <li><a href="playlists.html">Library</a></li>
-            <li><a class="home__link" href="#">Home</a></li>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Login In</a></li>
+            <li><a class="home__link" href="home.html">Sign Up</a></li>
           </ul>
         </div>
       </div>
 
       <!-- /Navbar section -->
+    </section>
+    <!-- /Header section -->
 
-      <div class="header__right">
-        <input
-          type="search"
-          class="header__right--search"
-          name="search"
-          placeholder="Search"
-        />
-        <i class="fa-solid fa-user"></i>
-        <p>JohnDEo</p>
-        <i class="fa-solid fa-angle-down"></i>
+    <!-- Main section -->
+    <section class="main">
+      <div class="heading-box">
+        <h1 class="main__heading main__heading-1">Open the world of music.</h1>
+        <h1 class="main__heading main__heading-2">It's all here.</h1>
+      </div>
+
+      <div class="main_btns">
+        <button class="btn btn-premium">Musicbox premium</button>
+        <button class="btn">Musicbox free</button>
+      </div>
+      <div class="main_cost">
+        1-month free trial <span class="blue-text">$7.99</span>/month after
       </div>
     </section>
-    <!-- Header section -->
 
-    <!-- Section-1 -->
+    <!-- /Main section -->
 
-    <div class="section1">
-      <h2 class="section__h2">Open the world of music</h2>
-      <h2 class="section__h2">It's all here</h2>
-      <div class="section1__button">
-        <div class="section1__button--left">MUSICBOX PREMIUM</div>
-        <div class="section1__button--right">MUSICBOX FREE</div>
-        <p>1-month free trial <span class="7.99"></span>/month after</p>
+    <!-- Flow section  -->
+    <section class="flow">
+      <div class="container">
+        <div class="grid2">
+          <div class="grid2__left">
+            <div class="flow__img">
+              <img
+                class="skewing"
+                src="img/Phone-Finder.png"
+                alt="Phone-Finder"
+              />
+            </div>
+          </div>
+          <div class="grid2__right">
+            <div class="flow__text">
+              <div class="flow__text-heading">
+                <img
+                  src="img/flow-icon.png"
+                  alt=""
+                  class="flow__text-heading-img"
+                />
+                <h1 class="main__heading">Flow</h1>
+              </div>
+              <p class="text-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                nam eaque necessitatibus labore omnis architecto blanditiis
+                neque placeat nostrum laborum.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <!-- /Flow secction -->
+    <!-- Banner section -->
+    <section class="banner">
+      <div class="container">
+        <div class="grid2">
+          <div class="grid2__left">
+            <h2 class="heading-secondary">Listen anytime, anywhere</h2>
+            <div class="text-box">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Laudantium hic nostrum beatae impedit aut?
+            </div>
+          </div>
+          <div class="grid2__right"></div>
+        </div>
+      </div>
+    </section>
 
-    <!-- /Section-1 -->
+    <!-- /Banner section -->
 
-    <!-- /Magic Music Landing page -->
+    <!-- Find music -->
+    <section class="find-music">
+      <div class="container">
+        <div class="grid2">
+          <div class="grid2__left">
+            <h2 class="heading-secondary">Find the music you want</h2>
+            <div class="text-box">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ut
+              porro eum est deleniti necessitatibus dolores odio vero commodi
+              animi!
+            </div>
+          </div>
+          <div class="grid2__right">
+            <img
+              class="skewing"
+              width="100%"
+              src="img/Mask1-landing.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /Find Music -->
+    <section class="premium">
+      <h2 class="heading-secondary">Why go premium?</h2>
+      <div class="premium__features">
+        <div class="premium__features-card">
+          <div class="premium__features-card--img">
+            <img src="img/Offline.png" alt="" />
+          </div>
+          <div class="premium__features-card-box">
+            <div class="text-box">Offline mode.</div>
+            <div class="text-box-mini">Save and listen anywhere.</div>
+          </div>
+        </div>
+        <div class="premium__features-card">
+          <div class="premium__features-card--img">
+            <img src="img/HQ.png" alt="" />
+          </div>
+          <div class="premium__features-card-box">
+            <div class="text-box">High quality audio.</div>
+            <div class="text-box-mini">Enjoy the full range of sound.</div>
+          </div>
+        </div>
+        <div class="premium__features-card">
+          <div class="premium__features-card--img">
+            <img src="img/No-ads.png" alt="" />
+          </div>
+          <div class="premium__features-card-box">
+            <div class="text-box">No ads.</div>
+            <div class="text-box-mini">Enjoy nonstop music.</div>
+          </div>
+        </div>
+        <div class="premium__features-card">
+          <div class="premium__features-card--img">
+            <img src="img/Skips.png" alt="" />
+          </div>
+          <div class="premium__features-card-box">
+            <p class="text-box">Unlimited skips</p>
+            <p class="text-box-mini">Just tap skip.</p>
+          </div>
+        </div>
+      </div>
+      <h3 class="heading-tertiary">
+        Listen free or subscribe to MusicBox
+        <span class="gradient-text">Premium.</span>
+      </h3>
+      <div class="premium__cards">
+        <div class="grid2">
+          <div class="grid2__left">
+            <div class="premium__card premium__card-1">
+              <p class="text-box">MusicBox Free</p>
+              <h2 class="premium__card-value">
+                <span class="premium__card-value-span">$0.00</span>/month
+              </h2>
+              <p class="text-box-mini">&nbsp;</p>
+              <ul>
+                <li><i class="fa-solid fa-check"></i> Online listening</li>
+                <li><i class="fa-solid fa-check"></i> Regular audio</li>
+                <li><i class="fa-solid fa-check"></i> With advertising</li>
+                <li><i class="fa-solid fa-check"></i> 30 skips per day</li>
+              </ul>
+            </div>
+            <button class="btn">get musicbox free</button>
+          </div>
+          <div class="grid2__right">
+            <div class="premium__card premium__card-2">
+              <div class="premium__card-2-content">
+                <p class="text-box">MusicBox Premium</p>
+                <h2 class="premium__card-value">
+                  <span class="premium__card-value-span gradient-text"
+                    >$7.99</span
+                  >/month
+                </h2>
+                <p class="text-box-mini">Start with 1-month free trial*</p>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-check gradient-text"></i> Online
+                    listening
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check gradient-text"></i> Regular
+                    audio
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check gradient-text"></i> With
+                    advertising
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check gradient-text"></i> 30 skips per
+                    day
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <button class="btn btn-premium">get musicbox premium</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer_grid">
+        <div class="footer__logo">
+          <div class="footer__logo-img">
+            <img src="img/Full-Logo.png" alt="" />
+          </div>
+        </div>
+        <div class="footer__1">
+          <h3 class="heading-tertiary">MUSICBOX</h3>
+          <a href="#" class="footer-link">About</a>
+          <a href="#" class="footer-link">Premium</a>
+          <a href="#" class="footer-link">Features</a>
+        </div>
+        <div class="footer__1">
+          <h3 class="heading-tertiary">COMMUNITES</h3>
+          <a href="#" class="footer-link">For Artists</a>
+          <a href="#" class="footer-link">Developer</a>
+          <a href="#" class="footer-link">Press</a>
+        </div>
+        <div class="footer__1">
+          <h3 class="heading-tertiary">USEFUL LINKS</h3>
+          <a href="#" class="footer-link">Help</a>
+          <a href="#" class="footer-link">Web Player</a>
+        </div>
+        <div class="footer__social">
+          <div class="footer__social-links">
+            <a href="#" class="footer__social-links-1">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="footer__social-links-1">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="footer__social-links-1">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

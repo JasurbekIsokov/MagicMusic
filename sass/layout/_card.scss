@@ -1,0 +1,140 @@
+.premium__features {
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 7rem;
+
+  &-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    width: 170px;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 1px 2px 1px lightskyblue;
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+
+    &--img {
+      padding: 1rem;
+      border-radius: 50%;
+      background-color: #252727;
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+}
+
+.premium__card {
+  border-radius: 5px;
+  padding: 1.5rem 2rem;
+  transition: all 0.5s ease;
+  margin-bottom: 1rem;
+
+  &:hover {
+    box-shadow: 0 1rem 3rem #2dcfef38;
+    transform: translateY(-10px);
+  }
+
+  &-value {
+    font-size: 1.4rem;
+    color: white;
+    &-span {
+      font-size: 2rem;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 4rem;
+    li {
+      color: white;
+      font-size: 1.4rem;
+      margin: 1.5rem 0;
+      display: flex;
+      align-items: center;
+      i {
+        display: inline-block;
+        margin-right: 1rem;
+        font-size: 1.4em;
+      }
+    }
+  }
+
+  &-1 {
+    border: 3px solid #fff;
+  }
+
+  &-2 {
+    padding: 3px;
+    background-image: linear-gradient(
+      to right bottom,
+      lightskyblue,
+      rgb(255, 139, 158)
+    );
+    &-content {
+      padding: 1.5rem 2rem;
+      background-color: #252727;
+      border-radius: 3px;
+    }
+  }
+}
+
+.card-flow,
+.card-recent {
+  z-index: 0;
+  border-radius: 0.6rem;
+  img {
+    width: 100%;
+    border-radius: 0.6rem;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      transform: scale(1.1);
+      filter: brightness(0.5);
+    }
+  }
+}
+
+.card-recent {
+  &-text {
+    position: relative;
+    z-index: 111;
+  }
+
+  &-text-heading {
+    color: #909090;
+    margin: 0.3rem 0;
+    font-weight: 400;
+    font-size: 1.3rem;
+    position: relative;
+  }
+
+  &-text-likes {
+    color: #808080;
+    font-size: 1.1rem;
+  }
+}
+.square-card {
+  text-align: center;
+  img {
+    border-radius: 50%;
+  }
+}
+.card-episode {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  align-items: center;
+  gap: 2rem;
+  img {
+    width: 100%;
+    border-radius: 5px;
+  }
+}

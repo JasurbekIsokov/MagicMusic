@@ -1,21 +1,127 @@
-// Header section
-
-// /Header section
-
-// Section-1
-
-.section1 {
-  width: 100vw;
-  height: 100vh;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  background-image: url(./img/back-img-1.jpg);
-
-  &__h2 {
-    color: #fff;
-    font-size: 2.4rem;
-  }
+.landing-header {
+  opacity: 0.7;
+  box-shadow: 0px 1px 5px lightskyblue;
 }
 
-// /Section-1
+.landing-logo {
+  transform: translateX(40%);
+}
+
+.right-navbar {
+  transform: translateX(150%);
+}
+
+.main {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/bg-landing.png);
+  background-size: cover;
+  background-position: bottom;
+  flex-direction: column;
+  .heading-box {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/landing/MB.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+
+    &:hover {
+      img {
+        transform: scale(1.05);
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+.flow {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+
+  &:hover {
+    img {
+      transform: scale(1.1);
+      transition: all 0.3s;
+    }
+  }
+  &__img {
+    text-align: center;
+    img {
+      width: 90%;
+    }
+  }
+  &__text-heading {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    &-img {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+  .text-box {
+    margin: 2rem 0;
+  }
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.521),
+      rgba(0, 0, 0, 0.233)
+    ),
+    url(../img/Listen-landing.png);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  .text-box {
+    margin: 2rem 0;
+  }
+}
+.find-music {
+  width: 100%;
+  background-color: #000;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+
+  &:hover {
+    img {
+      transform: scale(1.1);
+      transition: all 0.5s;
+    }
+  }
+
+  .text-box {
+    margin: 2rem 0;
+  }
+}
+.premium {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  .grid2 {
+    gap: 2rem;
+    margin-top: 2.5rem;
+    &__left {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  padding-bottom: 10rem;
+}
